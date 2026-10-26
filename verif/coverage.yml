@@ -1,0 +1,261 @@
+mips:
+  cover_percentage: 100.0
+  coverage: 120
+  size: 120
+  type: <class 'cocotb_coverage.coverage.CoverItem'>
+mips.addsub_operand_corners:
+  at_least: 1
+  bins:_hits:
+    max_max: 7
+    max_min: 2
+    max_ones: 2
+    max_other: 17
+    max_zero: 21
+    min_max: 2
+    min_min: 2
+    min_ones: 3
+    min_other: 13
+    min_zero: 10
+    ones_max: 2
+    ones_min: 2
+    ones_ones: 3
+    ones_other: 19
+    ones_zero: 9
+    other_max: 14
+    other_min: 12
+    other_ones: 16
+    other_other: 494
+    other_zero: 417
+    zero_max: 15
+    zero_min: 7
+    zero_ones: 17
+    zero_other: 405
+    zero_zero: 351
+  cover_percentage: 100.0
+  coverage: 25
+  size: 25
+  type: <class 'cocotb_coverage.coverage.CoverPoint'>
+  weight: 1
+mips.alu_result:
+  at_least: 1
+  bins:_hits:
+    neg: 869
+    pos: 1849
+    zero: 1859
+  cover_percentage: 100.0
+  coverage: 3
+  size: 3
+  type: <class 'cocotb_coverage.coverage.CoverPoint'>
+  weight: 1
+mips.beq_offset:
+  at_least: 1
+  bins:_hits:
+    neg: 3
+    pos: 1600
+    zero: 506
+  cover_percentage: 100.0
+  coverage: 3
+  size: 3
+  type: <class 'cocotb_coverage.coverage.CoverPoint'>
+  weight: 1
+mips.beq_outcome:
+  at_least: 1
+  bins:_hits:
+    not_taken: 826
+    taken: 1283
+  cover_percentage: 100.0
+  coverage: 2
+  size: 2
+  type: <class 'cocotb_coverage.coverage.CoverPoint'>
+  weight: 1
+mips.beq_outcome_x_offset:
+  at_least: 1
+  bins:_hits:
+    not_taken:neg: 1
+    not_taken:pos: 619
+    not_taken:zero: 206
+    taken:neg: 2
+    taken:pos: 981
+    taken:zero: 300
+  cover_percentage: 100.0
+  coverage: 6
+  size: 6
+  type: <class 'cocotb_coverage.coverage.CoverPoint'>
+  weight: 1
+mips.illegal_flavour:
+  at_least: 1
+  bins:_hits:
+    bad_funct: 488
+    bad_opcode: 1193
+  cover_percentage: 100.0
+  coverage: 2
+  size: 2
+  type: <class 'cocotb_coverage.coverage.CoverPoint'>
+  weight: 1
+mips.kind:
+  at_least: 1
+  bins:_hits:
+    add: 932
+    and: 930
+    beq: 2109
+    illegal: 1681
+    lw: 5663
+    or: 885
+    slt: 900
+    sub: 930
+    sw: 778
+  cover_percentage: 100.0
+  coverage: 9
+  size: 9
+  type: <class 'cocotb_coverage.coverage.CoverPoint'>
+  weight: 1
+mips.kind_x_result:
+  at_least: 1
+  bins:_hits:
+    add:neg: 243
+    add:pos: 502
+    add:zero: 187
+    and:neg: 28
+    and:pos: 163
+    and:zero: 739
+    or:neg: 225
+    or:pos: 485
+    or:zero: 175
+    slt:pos: 334
+    slt:zero: 566
+    sub:neg: 373
+    sub:pos: 365
+    sub:zero: 192
+  cover_percentage: 100.0
+  coverage: 14
+  size: 14
+  type: <class 'cocotb_coverage.coverage.CoverPoint'>
+  weight: 1
+mips.mem_addr_x_op:
+  at_least: 1
+  bins:_hits:
+    lw:w0_7: 2476
+    lw:w128_255: 232
+    lw:w64_127: 178
+    lw:w8_63: 2777
+    sw:w0_7: 37
+    sw:w128_255: 192
+    sw:w64_127: 169
+    sw:w8_63: 380
+  cover_percentage: 100.0
+  coverage: 8
+  size: 8
+  type: <class 'cocotb_coverage.coverage.CoverPoint'>
+  weight: 1
+mips.mem_offset_sign:
+  at_least: 1
+  bins:_hits:
+    neg: 239
+    pos: 5862
+    zero: 340
+  cover_percentage: 100.0
+  coverage: 3
+  size: 3
+  type: <class 'cocotb_coverage.coverage.CoverPoint'>
+  weight: 1
+mips.raw_dependency:
+  at_least: 1
+  bins:_hits:
+    both: 286
+    none: 13358
+    rs: 1096
+    rt: 68
+  cover_percentage: 100.0
+  coverage: 4
+  size: 4
+  type: <class 'cocotb_coverage.coverage.CoverPoint'>
+  weight: 1
+mips.rd_bin:
+  at_least: 1
+  bins:_hits:
+    r0: 183
+    r16_31: 3075
+    r1_8: 9
+    r9_15: 1310
+  cover_percentage: 100.0
+  coverage: 4
+  size: 4
+  type: <class 'cocotb_coverage.coverage.CoverPoint'>
+  weight: 1
+mips.rs_bin:
+  at_least: 1
+  bins:_hits:
+    r0: 5183
+    r16_31: 3560
+    r1_8: 2738
+    r9_15: 1646
+  cover_percentage: 100.0
+  coverage: 4
+  size: 4
+  type: <class 'cocotb_coverage.coverage.CoverPoint'>
+  weight: 1
+mips.rt_bin:
+  at_least: 1
+  bins:_hits:
+    r0: 251
+    r16_31: 4691
+    r1_8: 4009
+    r9_15: 4176
+  cover_percentage: 100.0
+  coverage: 4
+  size: 4
+  type: <class 'cocotb_coverage.coverage.CoverPoint'>
+  weight: 1
+mips.signed_overflow:
+  at_least: 1
+  bins:_hits:
+    'no': 1803
+    'yes': 59
+  cover_percentage: 100.0
+  coverage: 2
+  size: 2
+  type: <class 'cocotb_coverage.coverage.CoverPoint'>
+  weight: 1
+mips.slt_operand_corners:
+  at_least: 1
+  bins:_hits:
+    max_max: 1
+    max_min: 2
+    max_ones: 1
+    max_other: 6
+    max_zero: 10
+    min_max: 3
+    min_min: 2
+    min_ones: 1
+    min_other: 5
+    min_zero: 11
+    ones_max: 1
+    ones_min: 2
+    ones_ones: 3
+    ones_other: 6
+    ones_zero: 6
+    other_max: 9
+    other_min: 5
+    other_ones: 7
+    other_other: 239
+    other_zero: 205
+    zero_max: 4
+    zero_min: 4
+    zero_ones: 7
+    zero_other: 194
+    zero_zero: 166
+  cover_percentage: 100.0
+  coverage: 25
+  size: 25
+  type: <class 'cocotb_coverage.coverage.CoverPoint'>
+  weight: 1
+mips.slt_result:
+  at_least: 1
+  bins:_hits:
+    0: 566
+    1: 334
+  cover_percentage: 100.0
+  coverage: 2
+  size: 2
+  type: <class 'cocotb_coverage.coverage.CoverPoint'>
+  weight: 1

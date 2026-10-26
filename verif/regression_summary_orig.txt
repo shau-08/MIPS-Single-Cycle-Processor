@@ -1,0 +1,6 @@
+seed status programs   cycles mismatch time_s
+   1 FAIL        412    19556    26570   17.7
+   2 FAIL        412    19309    26016   18.6
+   3 FAIL        412    19873    30244   18.3
+TOTAL programs=1236 cycles_compared=58738 wall=36.0s
+MERGED FUNCTIONAL COVERAGE: 120/120 bins = 100.0%

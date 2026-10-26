@@ -1,0 +1,11 @@
+seed status programs   cycles mismatch time_s
+   1 PASS        412    19564        0   18.3
+   2 PASS        412    19306        0   18.7
+   3 PASS        412    19864        0   19.2
+   4 PASS        412    20177        0   20.2
+   5 PASS        412    19355        0   18.3
+   6 PASS        412    19606        0   18.7
+   7 PASS        412    19410        0   17.8
+   8 PASS        412    19844        0   18.2
+TOTAL programs=3296 cycles_compared=157126 wall=75.8s
+MERGED FUNCTIONAL COVERAGE: 120/120 bins = 100.0%

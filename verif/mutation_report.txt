@@ -1,0 +1,25 @@
+N_RANDOM=100 SEED=1
+KILLED    alu: AND -> OR                   112 (directed=12, random=100) cycles_compared=5050 mismatches=4493 failing_
+KILLED    alu: OR -> AND                   112 (directed=12, random=100) cycles_compared=5051 mismatches=3769 failing_
+KILLED    alu: ADD -> SUB                  112 (directed=12, random=100) cycles_compared=5051 mismatches=68726 failing_
+KILLED    alu: SUB -> ADD                  112 (directed=12, random=100) cycles_compared=5048 mismatches=7874 failing_
+KILLED    alu: signed slt -> unsigned      112 (directed=12, random=100) cycles_compared=5050 mismatches=1759 failing_
+KILLED    alu: Zero polarity               112 (directed=12, random=100) cycles_compared=5051 mismatches=9531 failing_
+KILLED    ctrl: sw MemWrite dropped        112 (directed=12, random=100) cycles_compared=5047 mismatches=332 failing_
+KILLED    ctrl: lw MemtoReg dropped        112 (directed=12, random=100) cycles_compared=5051 mismatches=72855 failing_
+KILLED    ctrl: R-type RegDst dropped      112 (directed=12, random=100) cycles_compared=5048 mismatches=25654 failing_
+KILLED    ctrl: lw ALUSrc dropped          112 (directed=12, random=100) cycles_compared=5051 mismatches=68927 failing_
+KILLED    ctrl: beq uses ADD               112 (directed=12, random=100) cycles_compared=5051 mismatches=5091 failing_
+KILLED    ctrl: slt funct -> ADD           112 (directed=12, random=100) cycles_compared=5051 mismatches=4928 failing_
+KILLED    ctrl: bad funct writes reg       112 (directed=12, random=100) cycles_compared=5051 mismatches=2535 failing_
+KILLED    ctrl: bad opcode writes reg      112 (directed=12, random=100) cycles_compared=5051 mismatches=4953 failing_
+KILLED    rf: r0 write guard removed       112 (directed=12, random=100) cycles_compared=5051 mismatches=661 failing_
+SURVIVED  rf: r0 read forced-zero off      112 (directed=12, random=100) cycles_compared=5051 mismatches=0 failing_
+KILLED    sext: zero-extend                112 (directed=12, random=100) cycles_compared=5049 mismatches=14 failing_
+KILLED    branch: missing <<2              112 (directed=12, random=100) cycles_compared=5051 mismatches=7285 failing_
+KILLED    branch: taken when !Zero         112 (directed=12, random=100) cycles_compared=5049 mismatches=9624 failing_
+KILLED    branch: base is PC not PC+4      112 (directed=12, random=100) cycles_compared=5047 mismatches=10331 failing_
+KILLED    dmem: write always enabled       112 (directed=12, random=100) cycles_compared=5050 mismatches=3150 failing_
+KILLED    dmem: word index off by one      112 (directed=12, random=100) cycles_compared=5051 mismatches=72036 failing_
+KILLED    pc: reset ignored                112 (directed=12, random=100) cycles_compared=5051 mismatches=76369 failing_
+mutants killed: 22/23

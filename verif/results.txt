@@ -1,0 +1,7 @@
+programs 312
+directed 12
+random 300
+cycles 15120
+mismatches 0
+failing_programs 0
+exec_by_kind add=932 and=930 beq=2109 illegal=1681 lw=5663 or=885 slt=900 sub=930 sw=778

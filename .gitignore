@@ -1,0 +1,5 @@
+verif/sim_build/
+verif/regress/
+__pycache__/
+*.xml
+*.vcd
